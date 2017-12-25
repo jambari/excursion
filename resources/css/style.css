@@ -1,0 +1,32 @@
+html {
+  font-family: verdana;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h1:first-child {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h1:nth-child(2n+0) {
+  font-weight: 300;
+  font-size: 42px;
+}
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+p:nth-child(1n+0){
+  color: gray;
+  font-size: 21px;
+}
+
+#copyright {
+  text-align: right;
+}
